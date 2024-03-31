@@ -1,0 +1,10 @@
+@tailwind utilities;
+
+@layer utilities {
+    .text-balance {
+        text-wrap: balance;
+    }
+    .wrap-container {
+        @apply container flex mx-auto py-3 space-x-3
+    }
+}
